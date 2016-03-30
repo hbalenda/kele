@@ -11,4 +11,8 @@ class Kele
       puts "Sorry, invalid credentials."
     end
   end
+
+  def get_me
+    @current_user = self.class.get('/users/me', headers: { "authorization" => @auth_token })
+  end
 end
