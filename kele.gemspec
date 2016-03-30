@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.add_runtime_dependency 'httparty', '~> 0.13'
   s.add_runtime_dependency 'rspec', '~> 3.4'
-  s.add_runtime_dependency 'dotenv-rails'
-  s.add_runtime_dependency 'simplecov', :require => false, :group => :test
+  s.add_runtime_dependency 'dotenv', '~> 2.1'
+  s.add_runtime_dependency 'simplecov', '~> 0.11.2'
+  s.add_runtime_dependency 'json', '~> 1.8'
 end
