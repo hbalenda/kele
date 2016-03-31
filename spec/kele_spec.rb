@@ -25,6 +25,13 @@ describe Kele do
     end
   end
 
+  context "#get_messages" do
+    it "returns messages by page" do
+      response = @kele_client.get_messages(1)
+      expect(response.instance_variable_get(:@messages)).to be_a Object
+    end
+  end
+
   context "roadmap module" do
     it "#get_roadmap returns roadmap" do
       response = @kele_client.get_roadmap(31)
