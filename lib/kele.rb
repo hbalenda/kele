@@ -40,4 +40,10 @@ class Kele
     self.class.post("/messages",
     body: { user_id: user_id, recipient_id: recipient_id, subject: subject, stripped: body })
   end
+
+  def create_submission (checkpoint_id, comment)
+    @enrollment_id = self.get_me['id']
+    self.class.post("/checkpoint_submissions",
+    body: { checkpoint_id: checkpoint_id, comment: comment, enrollment_id: @enrollment_id })
+  end
 end
