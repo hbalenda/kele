@@ -1,0 +1,194 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 05 Apr 2016 00:04:35 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"66554138d9546b8a97213b86dd20db0c"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=M7y8wQGoHHrQU6k6uod46ql0PKHC87r4FYOG%2Bj0r8kg%3D; path=/; secure
+      - _BlocAlpha_session2=TEg5RWlFQkNTWlZYTXNHSTNLOHJWWTZoUldmeGJXMW9JYytxTnRFam8yaVk1UVV2L3VCejdwRlB1V0NFc1IwOUZSdVBiR1ZjeUZXNWhQNU5uQlFJdjBGWWx5dHdqd1I2NkoyNDdieUtCbW1RZjE1Z1VEakFvODM0blZGdVB5SHRiTVJKRUhDa2ZiTkpOaGlWSTcvTGNyU3lCR0VQYXFwaUtZMEk5RjVRODQrN0dOaHJzeXdHaTZwajYweXB1MitTLS02bndvbEJDM1YvUjdKQzR5d09NWll3PT0%3D--4361edc4bbc2cc075b0c4e5d04b9e0ca78ad0cf8;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=a0b9af39-9f6b-47dd-9458-96504b27a5f0; path=/; expires=Tue, 05 Apr
+        2016 04:04:35 -0000; secure
+      - ahoy_visitor=ecc720ae-1ac4-455c-8373-33b1d8029255; path=/; expires=Thu, 05
+        Apr 2018 00:04:35 -0000; secure
+      X-Request-Id:
+      - b3b2720d-3227-4561-ae8e-1c6bf684052b
+      X-Runtime:
+      - '0.095194'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiM2ViZGQ1YTlkNTBjNDQwMDhlZjVmMzRkM2Y5MDc3OTEiLCJ1c2VyX2lkIjoyMzEzMjcxLCJuYW1lIjoiaGFubmFoIHZpb2xldCJ9.c5hb4DMaRPKMKO7RIederXu2TDPqbhlYyUralfYyFyU","user":{"id":2313271,"email":"hcbviolet@gmail.com","created_at":"2015-10-27T19:02:46.321-04:00","updated_at":"2016-04-04T20:03:36.984-04:00","facebook_id":null,"first_name":"hannah","last_name":"violet","role":"user","stripe_customer_id":"cus_7hbf7hFMQgsNQ1","twitter_handle":"","skype_handle":"","github_handle":"hcbviolet","time_zone":"Pacific
+        Time (US \u0026 Canada)","bio":"After double majoring in pre-med and ancient
+        Near Eastern languages, Seattle-native and David Bowie aficionado Hannah Violet
+        has finally found coding as a way to combine her loves of math, language,
+        and making stuff. She is beyond excited to be on the path to becoming a web
+        developer with Bloc! ","photo_file_name":"IMG_1061.JPG","photo_content_type":"image/jpeg","photo_file_size":2338499,"photo_updated_at":"2016-01-11T15:37:13.317-05:00","tos":null,"send_new_message_emails":true,"referred_by_id":null,"slug":"hannah-violet","os":"OS
+        X","last_seen_at":"2016-04-04T20:03:36.906-04:00","private_profile":false,"google_plus_id":"111032954941704193106","linkedin":"","quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4476,"phone_num":"2068837461","title":null,"quota_limit":0,"dribbble_handle":"","codecademy_handle":"hcbviolet","student_profile_id":null,"birthdate":"1990-07-11","gender":"","first_visit_id":null,"codewars_handle":"hcbviolet"}}'
+    http_version: 
+  recorded_at: Tue, 05 Apr 2016 00:04:35 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/checkpoints/99
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiM2ViZGQ1YTlkNTBjNDQwMDhlZjVmMzRkM2Y5MDc3OTEiLCJ1c2VyX2lkIjoyMzEzMjcxLCJuYW1lIjoiaGFubmFoIHZpb2xldCJ9.c5hb4DMaRPKMKO7RIederXu2TDPqbhlYyUralfYyFyU
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 05 Apr 2016 00:04:35 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"7f50e38e446dac7258df4c4a2a54e395"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=7JJkfp48v8mOZ8OpD%2BlZRQm%2Bwq3dCVtoo9%2Fc1ANP160%3D; path=/; secure
+      - _BlocAlpha_session2=UmJDRWRqejBBVm5aMmtBKzUvV0lJZG9GVzBjbEtUd245ZlN3eFFkamlEbzRwMVJKL0ZCT3lVMmx0T0ZaNHVRSUlzYWs0dC95QWQwVHV0MVVzVTg5S0t1cktzS0dvUXUzYjRoNW5DWFhEMnA2WTNhR3hIaFc1K3NrejZrdEgwVXh5YmpOaWd1eXJWMHNiSE9PK2FRQ1Fvem1XMS9DWCtCWDVvNHZ3MW8rU3FlVzZQKzliZHdiQTQrN3hlUUhKZ0FDeTlVa3o3MXhHYUxVOVBuVC9JTTFFZURYS20rUnhzUGZnNjN4TE1rZ2p4V1lGUjBsSUJocWVJMTR5MktEaXFyWkVoRFErS0tMMGRuYUZHdmlCMnpWdHc9PS0tcFI4b2lZMnpuejIxQ2ZuMVRQemxLZz09--670354f31b8063f39bff43ac8d56660a02832c3c;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=b66f8aaa-3190-4dbb-b33a-20f3d405de7d; path=/; expires=Tue, 05 Apr
+        2016 04:04:35 -0000; secure
+      - ahoy_visitor=3678af6a-33c3-4d0e-8360-49a6a11a2892; path=/; expires=Thu, 05
+        Apr 2018 00:04:35 -0000; secure
+      X-Request-Id:
+      - 1c5b694f-ee51-469a-b5eb-fa7ca4556534
+      X-Runtime:
+      - '0.048418'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":99,"name":"Creating with Ajax","body":"## Unobtrusive Creation\r\nLet''s
+        extend the concepts from the last checkpoint, and enable unobtrusive comment
+        creation in this checkpoint.\r\n\r\n## Modifying the Controller\r\nYou already
+        declared `respond_to :html, :js` in the `comments_controller`, so we''ll just
+        modify the `create` method:\r\n\r\n```ruby\r\ndef create\r\n  @topic = Topic.find(params[:topic_id])\r\n  @post
+        = @topic.posts.find(params[:post_id])\r\n  @comments = @post.comments\r\n\r\n  @comment
+        = current_user.comments.build(params[:comment])\r\n  @comment.post = @post\r\n  \r\n  authorize!
+        :create, @comment, message: \"You need be signed in to do that.\"\r\n\r\n  if
+        @comment.save\r\n    flash[:notice] = \"Comment was created.\"\r\n  else\r\n    flash[:error]
+        = \"There was an error saving the comment. Please try again.\"\r\n  end\r\n\r\n  respond_with(@comment)
+        do |f|\r\n    f.html { redirect_to [@topic, @post] }\r\n  end\r\nend\r\n```\r\n\r\n##
+        Creating the View\r\nCreate `app/views/comments/create.js.erb`, and consider
+        the following pseudo code for your view:\r\n\r\n```text\r\nif the comment
+        is created and is valid\r\n  add the comment to the list of comments\r\nelse\r\n  render
+        an error on the form\r\nend\r\n```\r\n\r\n\u003e ActiveRecord has a `valid?`
+        method which we''ll call to check the validity of the `comment`. If the `comment`
+        is not valid, it won''t be saved.\r\n\r\nTo add a `comment` to the end of
+        a list, we''ll use the jQuery `prepend` method. To call `prepend`, we''ll
+        need something to prepend the `comment` _to_. Open `topics/posts/show.html.erb`
+        and add a `div` around the `comments` collection:\r\n\r\n```html\r\n\u003ch2
+        class=''js-comments-count''\u003e\u003c%= @comments.count %\u003e Comments\u003c/h2\u003e\r\n\u003cdiv
+        class=\"js-comments\"\u003e  \r\n  \u003c%= render partial: ''comments/comment'',
+        collection: @comments %\u003e\r\n\u003c/div\u003e\r\n```\r\n\r\nConstructing
+        the `create.js.erb` file will require a call to `render` an updated `comments`
+        collection, or the comment form. This can be done using `escape_javascript`,
+        which will make sure the HTML generated by the `render` is generated properly
+        on the Ajax response. \r\n\r\n\u003e Refer to the [Rails docs](http://api.rubyonrails.org/classes/ActionView/Helpers/JavaScriptHelper.html#method-i-escape_javascript)
+        for more details on `escape_javascript`.\r\n\r\nUsing our pseudo-code as a
+        guide, use the `valid?` method, along with `escape_javascript` to create a
+        new `comment` unobtrusively:\r\n\r\n```js.erb\r\n\u003c% if @comment.valid?
+        %\u003e\r\n  $(\".js-comments\").prepend(\"\u003c%= escape_javascript(render(@comment))
+        %\u003e\");\r\n\u003c% else %\u003e\r\n  $(\".js-new-comment\").html(\"\u003c%=
+        escape_javascript(render partial: ''comments/form'', locals: { topic: @topic,
+        post: @post, comment: @comment }) %\u003e\");\r\n\u003c% end %\u003e\r\n```\r\n\r\nSince
+        we are prepending comments to the top of the list, we should make sure that
+        `comments` are always ordered consistently. For example, if we refresh the
+        page after the Ajax response, we want the order to stay consistent. We can
+        accomplish this by using a `default_scope`. Open `models/comment.rb` and add:\r\n\r\n```ruby\r\ndefault_scope
+        order(''updated_at DESC'')\r\n```\r\n\r\n## Ajaxifying the Form\r\nOpen `views/comments/_form.html.erb`
+        and add `remote: true` to enable Ajax on the form:\r\n\r\n```html\r\n\u003c%=
+        form_for [topic, post, comment], remote: true do |f| %\u003e\r\n```\r\n\r\nGo
+        ahead and create a new `comment` in your app. The unobtrusive `create` action
+        should have worked, but you probably noticed a couple of problems. The form
+        wasn''t cleared after the `create` and the `comment` count is wrong. To clear
+        the form, we can render a new `_form` partial, with a `new` instance of a
+        `comment`. We''ll start by adding this new instance variable to the `comments_controller`:\r\n\r\n```ruby\r\n...\r\n@comment
+        = current_user.comments.build(params[:comment])\r\n@comment.post = @post\r\n@new_comment
+        = Comment.new\r\n...\r\n```\r\n\r\nWe''ll use the new `@new_comment` variable
+        in `create.js.erb`, and also update the `comment` count:\r\n\r\n```\r\n\u003c%
+        if @comment.valid? %\u003e\r\n  $(\".js-comments\").prepend(\"\u003c%= escape_javascript(render(@comment))
+        %\u003e\");\r\n  $(\".js-new-comment\").html(\"\u003c%= escape_javascript(render
+        partial: ''comments/form'', locals: { topic: @topic, post: @post, comment:
+        @new_comment }) %\u003e\");\r\n  $(''.js-comments-count'').html(\"\u003c%=
+        @post.comments.count %\u003e Comments\");\r\n\u003c% else %\u003e\r\n  $(\".js-new-comment\").html(\"\u003c%=
+        escape_javascript(render partial: ''comments/form'', locals: { topic: @topic,
+        post: @post, comment: @comment }) %\u003e\");\r\n\u003c% end %\u003e\r\n```\r\n\r\nGo
+        back to your app and check it out. You should have a fully Ajaxified resource
+        for creating new `comments`.\r\n\r\n## Git and Deploy\r\nWe''re at a good
+        stopping point, so check in your code and deploy:\r\n\r\n```bash\r\n$ git
+        status\r\n$ git add .\r\n$ git commit -m ''Ajaxified comment creation''\r\n$
+        git push\r\n$ git push heroku master\r\n$ heroku open\r\n```\r\n\r\n","parent_id":null,"created_at":"2013-05-05T19:12:03.430-07:00","updated_at":"2016-02-23T13:25:37.842-08:00","assignment":"In
+        this checkpoint you should have:\r\n\r\n* learned how to add a UJS-create
+        view to your Rails app;\r\n* learned about the `escape_javascript` method;\r\n*
+        created a comment unobtrusively.\r\n\r\nMessage your mentor with your relevant
+        commit links to move on to the next checkpoint.\r\n\r\nCongratulations on
+        completing the Bloccit tutorial! You''ll be moving on to your Capstone project
+        next, but we encourage you to continue to enhance and extend your Bloccit
+        app. You have a solid foundation of a really cool app. You can add functionality,
+        tests, redesign the UI, or anything else that comes to mind. Try to add some
+        personal flair to your app and share it with your mentor.","summary":"In this
+        checkpoint you''ll learn how to allow users to create comments without refreshing
+        the page.","points":1,"project_name":"","roadmap_id":2,"active":true,"job_prep":false,"version":[0,0],"body_file_path":"","uuid":"9ee03e09-abf6-4475-873c-72fbd640743a","ref":"9ee03e09-abf6-4475-873c-72fbd640743a|0","retroactive_optional_date":null,"checkpoint_type":"normal"}'
+    http_version: 
+  recorded_at: Tue, 05 Apr 2016 00:04:35 GMT
+recorded_with: VCR 3.0.1

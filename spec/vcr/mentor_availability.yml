@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 05 Apr 2016 00:03:26 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"66b52c355abb408f53ad4cf71d1df2bd"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=k%2BMi6Mvag4YO7eCPrL7w%2BEZVB2yocMBxDXaF13Ib6zU%3D; path=/; secure
+      - _BlocAlpha_session2=akN1NnRoSktTd0VhSGI4MU5nc0VYK0xXQjFWY2hXcG5pOXlhYWw3REpFVzA1dWRCU0pTcUYxeW52WVQ5MTU5ZmpPS2FjckRmY3ZQck1iRHA3NmdPU3FYdWV1cW1SY1hCL3RmWEl1dnR3dVhuNlZac1RLVmU0ZDVZU0VGRFI5YVRBOHdXWkErdGUzUDRxenNvWFVwdlRpWS9iQmdXdlExZ2JFak5zNndSZEhUVm5oRkNWRlZjcDcwZDRtUlNxY2dnLS1lUWNaQkV0V09LMFVHWkpnLzN0ekhBPT0%3D--8db95f0f2894c6a1d5cfc0cbead87f43ad30be97;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=1cf26df0-e815-4e60-9fa8-05a9325f8efa; path=/; expires=Tue, 05 Apr
+        2016 04:03:26 -0000; secure
+      - ahoy_visitor=c66917cb-995b-4d88-bfb3-53f0258768dd; path=/; expires=Thu, 05
+        Apr 2018 00:03:26 -0000; secure
+      X-Request-Id:
+      - 1d72d95b-4576-45de-99e0-58214b1974e6
+      X-Runtime:
+      - '0.108800'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiM2ViZGQ1YTlkNTBjNDQwMDhlZjVmMzRkM2Y5MDc3OTEiLCJ1c2VyX2lkIjoyMzEzMjcxLCJuYW1lIjoiaGFubmFoIHZpb2xldCJ9.c5hb4DMaRPKMKO7RIederXu2TDPqbhlYyUralfYyFyU","user":{"id":2313271,"email":"hcbviolet@gmail.com","created_at":"2015-10-27T16:02:46.321-07:00","updated_at":"2016-04-04T17:03:26.201-07:00","facebook_id":null,"first_name":"hannah","last_name":"violet","role":"user","stripe_customer_id":"cus_7hbf7hFMQgsNQ1","twitter_handle":"","skype_handle":"","github_handle":"hcbviolet","time_zone":"Pacific
+        Time (US \u0026 Canada)","bio":"After double majoring in pre-med and ancient
+        Near Eastern languages, Seattle-native and David Bowie aficionado Hannah Violet
+        has finally found coding as a way to combine her loves of math, language,
+        and making stuff. She is beyond excited to be on the path to becoming a web
+        developer with Bloc! ","photo_file_name":"IMG_1061.JPG","photo_content_type":"image/jpeg","photo_file_size":2338499,"photo_updated_at":"2016-01-11T12:37:13.317-08:00","tos":null,"send_new_message_emails":true,"referred_by_id":null,"slug":"hannah-violet","os":"OS
+        X","last_seen_at":"2016-04-04T17:03:26.153-07:00","private_profile":false,"google_plus_id":"111032954941704193106","linkedin":"","quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4476,"phone_num":"2068837461","title":null,"quota_limit":0,"dribbble_handle":"","codecademy_handle":"hcbviolet","student_profile_id":null,"birthdate":"1990-07-11","gender":"","first_visit_id":null,"codewars_handle":"hcbviolet"}}'
+    http_version: 
+  recorded_at: Tue, 05 Apr 2016 00:03:26 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/mentors/623967/student_availability
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiM2ViZGQ1YTlkNTBjNDQwMDhlZjVmMzRkM2Y5MDc3OTEiLCJ1c2VyX2lkIjoyMzEzMjcxLCJuYW1lIjoiaGFubmFoIHZpb2xldCJ9.c5hb4DMaRPKMKO7RIederXu2TDPqbhlYyUralfYyFyU
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 05 Apr 2016 00:03:28 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"3a316eb6006e9c2b9fefc65c4b4181b3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=PcR%2F%2FcRGQ9WHFzlnAzMzbgtMYR1UBQCH9c02t5iv5kg%3D; path=/; secure
+      - _BlocAlpha_session2=bzZ6cWFYWlcyNlpXcHJ3dk9aaGN2VFN1akRHYkRpRDZ1SUFLWG4xUWdDRExVTlNkc1VFLy9lR1h6a1lPRUtCZmQ5d1BZVkIzUmtJempDeTd4UmVBN3JIQWRlVXZHenJxdTk1aS95WG56MG1yT2lkV3NXQ2dpSGVYejRFMDl1V3FXaDF2YzN4c2RxQkdpQlFjMExuMklXZXRsaWR0NW5lR0hVZ25aSStldHRIMzlHRWQrMTN6MkxvYmxScU5IR0lJT1llYUdONHhxVHBVTTUvT0RKRGtvWEgwa3ZTdnpqbnNjQXZ0MTN1TUFiaWU2Q1NQUklHdVpEazA5OWdKL1I1Z091aHU0bUg2QVhEWTZUMUpnNktkdHc9PS0tMDVPL2J3cVRFZmtTdFFkQkY0b0hUUT09--52a3295d78b16a813cc88f8453c84b52d488d68f;
+        path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=faff8069-eaab-4ae9-8b14-7af54c5501b1; path=/; expires=Tue, 05 Apr
+        2016 04:03:28 -0000; secure
+      - ahoy_visitor=f4b834e9-4f5a-47cf-8990-72723bb38c3c; path=/; expires=Thu, 05
+        Apr 2018 00:03:28 -0000; secure
+      X-Request-Id:
+      - b14b3003-17b6-49bc-afea-890b4f16cfb1
+      X-Runtime:
+      - '0.196222'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":15183,"starts_at":"2016-04-11T23:30:00.000Z","ends_at":"2016-04-11T23:59:59.000Z","week_day":2,"booked":true},{"id":15181,"starts_at":"2016-04-11T22:30:00.000Z","ends_at":"2016-04-11T22:59:59.000Z","week_day":1,"booked":null},{"id":15222,"starts_at":"2016-04-08T00:30:00.000Z","ends_at":"2016-04-08T00:59:59.000Z","week_day":5,"booked":null},{"id":15219,"starts_at":"2016-04-07T23:00:00.000Z","ends_at":"2016-04-07T23:29:59.000Z","week_day":5,"booked":null},{"id":15210,"starts_at":"2016-04-07T00:00:00.000Z","ends_at":"2016-04-07T00:29:59.000Z","week_day":4,"booked":true}]'
+    http_version: 
+  recorded_at: Tue, 05 Apr 2016 00:03:28 GMT
+recorded_with: VCR 3.0.1
