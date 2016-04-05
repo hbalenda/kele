@@ -12,8 +12,10 @@ Gem::Specification.new do |s|
     'http://rubygems.org/gems/kele'
   s.license       = 'MIT'
   s.add_runtime_dependency 'httparty', '~> 0.13'
-  s.add_runtime_dependency 'rspec', '~> 3.4'
   s.add_runtime_dependency 'dotenv', '~> 2.1'
-  s.add_runtime_dependency 'simplecov', '~> 0.11.2'
   s.add_runtime_dependency 'json', '~> 1.8'
+  s.add_development_dependency 'rspec', '~> 3.4'
+  s.add_development_dependency 'simplecov', '~> 0.11.2'
+  s.add_development_dependency 'vcr'
+  s.add_development_dependency 'webmock'
 end
